@@ -2,17 +2,17 @@
 
 ![release version](https://img.shields.io/github/v/release/aldinokemal/go-whatsapp-web-multidevice)
 
-![Build Image](https://github.com/aldinokemal/go-whatsapp-web-multidevice/actions/workflows/build-docker-image.yaml/badge.svg)
+![Build Image](https://github.com/liushiqi1001/go-whatsapp-web-multidevice/actions/workflows/build-docker-image.yaml/badge.svg)
 
-![release windows](https://github.com/aldinokemal/go-whatsapp-web-multidevice/actions/workflows/release-windows.yml/badge.svg)
-![release linux](https://github.com/aldinokemal/go-whatsapp-web-multidevice/actions/workflows/release-linux.yml/badge.svg)
-![release macos](https://github.com/aldinokemal/go-whatsapp-web-multidevice/actions/workflows/release-mac.yml/badge.svg)
+![release windows](https://github.com/liushiqi1001/go-whatsapp-web-multidevice/actions/workflows/release-windows.yml/badge.svg)
+![release linux](https://github.com/liushiqi1001/go-whatsapp-web-multidevice/actions/workflows/release-linux.yml/badge.svg)
+![release macos](https://github.com/liushiqi1001/go-whatsapp-web-multidevice/actions/workflows/release-mac.yml/badge.svg)
 
 ## Support `ARM` Architecture
 
 Now that we support ARM64 for Linux:
 
-- [Release](https://github.com/aldinokemal/go-whatsapp-web-multidevice/releases/latest) for ARM64
+- [Release](https://github.com/liushiqi1001/go-whatsapp-web-multidevice/releases/latest) for ARM64
 - [Docker Image](https://hub.docker.com/r/aldinokemal2104/go-whatsapp-web-multidevice/tags) for ARM64.
 
 ## Feature
@@ -81,7 +81,7 @@ Note: Command-line flags will override any values set in environment variables o
 
 ### Basic
 
-1. Clone this repo: `git clone https://github.com/aldinokemal/go-whatsapp-web-multidevice`
+1. Clone this repo: `git clone https://github.com/liushiqi1001/go-whatsapp-web-multidevice`
 2. Open the folder that was cloned via cmd/terminal.
 3. run `cd src`
 4. run `go run main.go`
@@ -89,14 +89,14 @@ Note: Command-line flags will override any values set in environment variables o
 
 ### Docker (you don't need to install in required)
 
-1. Clone this repo: `git clone https://github.com/aldinokemal/go-whatsapp-web-multidevice`
+1. Clone this repo: `git clone https://github.com/liushiqi1001/go-whatsapp-web-multidevice`
 2. Open the folder that was cloned via cmd/terminal.
 3. run `docker-compose up -d --build`
 4. open `http://localhost:3000`
 
 ### Build your own binary
 
-1. Clone this repo `git clone https://github.com/aldinokemal/go-whatsapp-web-multidevice`
+1. Clone this repo `git clone https://github.com/liushiqi1001/go-whatsapp-web-multidevice`
 2. Open the folder that was cloned via cmd/terminal.
 3. run `cd src`
 4. run
@@ -165,7 +165,7 @@ volumes:
 
 ### Production Mode (binary)
 
-- download binary from [release](https://github.com/aldinokemal/go-whatsapp-web-multidevice/releases)
+- download binary from [release](https://github.com/liushiqi1001/go-whatsapp-web-multidevice/releases)
 
 You can fork or edit this source code !
 

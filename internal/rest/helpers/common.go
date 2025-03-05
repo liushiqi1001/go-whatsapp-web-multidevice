@@ -2,7 +2,7 @@ package helpers
 
 import (
 	"context"
-	domainApp "github.com/aldinokemal/go-whatsapp-web-multidevice/domains/app"
+	domainApp "github.com/liushiqi1001/go-whatsapp-web-multidevice/domains/app"
 	"go.mau.fi/whatsmeow"
 	"mime/multipart"
 	"time"

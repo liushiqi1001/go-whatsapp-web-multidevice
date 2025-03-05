@@ -2,7 +2,7 @@ package main
 
 import (
 	"embed"
-	"github.com/aldinokemal/go-whatsapp-web-multidevice/cmd"
+	"github.com/liushiqi1001/go-whatsapp-web-multidevice/cmd"
 )
 
 //go:embed views/index.html

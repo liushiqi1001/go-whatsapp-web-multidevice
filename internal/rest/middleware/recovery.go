@@ -2,9 +2,9 @@ package middleware
 
 import (
 	"fmt"
-	pkgError "github.com/aldinokemal/go-whatsapp-web-multidevice/pkg/error"
-	"github.com/aldinokemal/go-whatsapp-web-multidevice/pkg/utils"
 	"github.com/gofiber/fiber/v2"
+	pkgError "github.com/liushiqi1001/go-whatsapp-web-multidevice/pkg/error"
+	"github.com/liushiqi1001/go-whatsapp-web-multidevice/pkg/utils"
 )
 
 func Recovery() fiber.Handler {

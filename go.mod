@@ -2,11 +2,8 @@ module github.com/liushiqi1001/go-whatsapp-web-multidevice
 
 go 1.24.0
 
-replace github.com/aldinokemal/go-whatsapp-web-multidevice v1.1.0 => github.com/liushiqi1001/go-whatsapp-web-multidevice v0.0.0-20250305084030-33a3a5af5967
-
 require (
 	github.com/PuerkitoBio/goquery v1.10.2
-	github.com/aldinokemal/go-whatsapp-web-multidevice v1.1.0
 	github.com/disintegration/imaging v1.6.2
 	github.com/dustin/go-humanize v1.0.1
 	github.com/go-ozzo/ozzo-validation/v4 v4.3.0

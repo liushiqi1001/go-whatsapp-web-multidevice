@@ -3,10 +3,10 @@ package validations
 import (
 	"context"
 
-	"github.com/aldinokemal/go-whatsapp-web-multidevice/domains/message"
-	domainMessage "github.com/aldinokemal/go-whatsapp-web-multidevice/domains/message"
-	pkgError "github.com/aldinokemal/go-whatsapp-web-multidevice/pkg/error"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
+	"github.com/liushiqi1001/go-whatsapp-web-multidevice/domains/message"
+	domainMessage "github.com/liushiqi1001/go-whatsapp-web-multidevice/domains/message"
+	pkgError "github.com/liushiqi1001/go-whatsapp-web-multidevice/pkg/error"
 )
 
 func ValidateMarkAsRead(ctx context.Context, request domainMessage.MarkAsReadRequest) error {

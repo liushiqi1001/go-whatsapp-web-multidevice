@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/aldinokemal/go-whatsapp-web-multidevice/pkg/utils"
+	"github.com/liushiqi1001/go-whatsapp-web-multidevice/pkg/utils"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 )

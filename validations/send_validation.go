@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/aldinokemal/go-whatsapp-web-multidevice/config"
-	domainSend "github.com/aldinokemal/go-whatsapp-web-multidevice/domains/send"
-	pkgError "github.com/aldinokemal/go-whatsapp-web-multidevice/pkg/error"
 	"github.com/dustin/go-humanize"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 	"github.com/go-ozzo/ozzo-validation/v4/is"
+	"github.com/liushiqi1001/go-whatsapp-web-multidevice/config"
+	domainSend "github.com/liushiqi1001/go-whatsapp-web-multidevice/domains/send"
+	pkgError "github.com/liushiqi1001/go-whatsapp-web-multidevice/pkg/error"
 )
 
 func ValidateSendMessage(ctx context.Context, request domainSend.MessageRequest) error {

@@ -8,14 +8,6 @@ import (
 	"os"
 	"strings"
 
-	"github.com/aldinokemal/go-whatsapp-web-multidevice/config"
-	"github.com/aldinokemal/go-whatsapp-web-multidevice/internal/rest"
-	"github.com/aldinokemal/go-whatsapp-web-multidevice/internal/rest/helpers"
-	"github.com/aldinokemal/go-whatsapp-web-multidevice/internal/rest/middleware"
-	"github.com/aldinokemal/go-whatsapp-web-multidevice/internal/websocket"
-	"github.com/aldinokemal/go-whatsapp-web-multidevice/pkg/utils"
-	"github.com/aldinokemal/go-whatsapp-web-multidevice/pkg/whatsapp"
-	"github.com/aldinokemal/go-whatsapp-web-multidevice/services"
 	"github.com/dustin/go-humanize"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/basicauth"
@@ -24,6 +16,14 @@ import (
 	"github.com/gofiber/fiber/v2/middleware/logger"
 	"github.com/gofiber/template/html/v2"
 	_ "github.com/lib/pq"
+	"github.com/liushiqi1001/go-whatsapp-web-multidevice/config"
+	"github.com/liushiqi1001/go-whatsapp-web-multidevice/internal/rest"
+	"github.com/liushiqi1001/go-whatsapp-web-multidevice/internal/rest/helpers"
+	"github.com/liushiqi1001/go-whatsapp-web-multidevice/internal/rest/middleware"
+	"github.com/liushiqi1001/go-whatsapp-web-multidevice/internal/websocket"
+	"github.com/liushiqi1001/go-whatsapp-web-multidevice/pkg/utils"
+	"github.com/liushiqi1001/go-whatsapp-web-multidevice/pkg/whatsapp"
+	"github.com/liushiqi1001/go-whatsapp-web-multidevice/services"
 	_ "github.com/mattn/go-sqlite3"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
@@ -37,7 +37,7 @@ var (
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
 	Short: "Send free whatsapp API",
-	Long: `This application is from clone https://github.com/aldinokemal/go-whatsapp-web-multidevice, 
+	Long: `This application is from clone https://github.com/liushiqi1001/go-whatsapp-web-multidevice, 
 you can send whatsapp over http api but your whatsapp account have to be multi device version`,
 	Run: runRest,
 }

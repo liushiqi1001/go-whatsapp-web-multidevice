@@ -8,11 +8,11 @@ import (
 	"image"
 	"time"
 
-	domainUser "github.com/aldinokemal/go-whatsapp-web-multidevice/domains/user"
-	pkgError "github.com/aldinokemal/go-whatsapp-web-multidevice/pkg/error"
-	"github.com/aldinokemal/go-whatsapp-web-multidevice/pkg/whatsapp"
-	"github.com/aldinokemal/go-whatsapp-web-multidevice/validations"
 	"github.com/disintegration/imaging"
+	domainUser "github.com/liushiqi1001/go-whatsapp-web-multidevice/domains/user"
+	pkgError "github.com/liushiqi1001/go-whatsapp-web-multidevice/pkg/error"
+	"github.com/liushiqi1001/go-whatsapp-web-multidevice/pkg/whatsapp"
+	"github.com/liushiqi1001/go-whatsapp-web-multidevice/validations"
 	"go.mau.fi/whatsmeow"
 	"go.mau.fi/whatsmeow/types"
 )

@@ -1,9 +1,9 @@
 package rest
 
 import (
-	domainNewsletter "github.com/aldinokemal/go-whatsapp-web-multidevice/domains/newsletter"
-	"github.com/aldinokemal/go-whatsapp-web-multidevice/pkg/utils"
 	"github.com/gofiber/fiber/v2"
+	domainNewsletter "github.com/liushiqi1001/go-whatsapp-web-multidevice/domains/newsletter"
+	"github.com/liushiqi1001/go-whatsapp-web-multidevice/pkg/utils"
 )
 
 type Newsletter struct {

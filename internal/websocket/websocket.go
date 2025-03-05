@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"log"
 
-	domainApp "github.com/aldinokemal/go-whatsapp-web-multidevice/domains/app"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/websocket/v2"
+	domainApp "github.com/liushiqi1001/go-whatsapp-web-multidevice/domains/app"
 )
 
 type client struct{}

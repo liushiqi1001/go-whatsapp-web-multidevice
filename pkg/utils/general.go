@@ -13,7 +13,7 @@ import (
 	"time"
 
 	"github.com/PuerkitoBio/goquery"
-	"github.com/aldinokemal/go-whatsapp-web-multidevice/config"
+	"github.com/liushiqi1001/go-whatsapp-web-multidevice/config"
 )
 
 // RemoveFile is removing file with delay

@@ -6,7 +6,7 @@ import (
 	"os"
 	"sync"
 
-	"github.com/aldinokemal/go-whatsapp-web-multidevice/config"
+	"github.com/liushiqi1001/go-whatsapp-web-multidevice/config"
 )
 
 type RecordedMessage struct {

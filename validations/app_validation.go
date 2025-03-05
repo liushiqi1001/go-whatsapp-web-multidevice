@@ -3,8 +3,8 @@ package validations
 import (
 	"context"
 	"fmt"
-	pkgError "github.com/aldinokemal/go-whatsapp-web-multidevice/pkg/error"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
+	pkgError "github.com/liushiqi1001/go-whatsapp-web-multidevice/pkg/error"
 	"regexp"
 )
 

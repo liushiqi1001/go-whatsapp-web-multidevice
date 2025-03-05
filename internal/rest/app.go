@@ -2,9 +2,9 @@ package rest
 
 import (
 	"fmt"
-	domainApp "github.com/aldinokemal/go-whatsapp-web-multidevice/domains/app"
-	"github.com/aldinokemal/go-whatsapp-web-multidevice/pkg/utils"
 	"github.com/gofiber/fiber/v2"
+	domainApp "github.com/liushiqi1001/go-whatsapp-web-multidevice/domains/app"
+	"github.com/liushiqi1001/go-whatsapp-web-multidevice/pkg/utils"
 )
 
 type App struct {
